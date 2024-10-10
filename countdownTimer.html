@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="countdownTimer.css">
+
+  <title>Countdown Timer</title>
+</head>
+<body>
+<div class="main">
+  <div class="overlay">
+    <div class="Title">WE ARE COMING SOON</div>
+    
+    <div class="Title" id="end-date"></div>
+    <div class="Title">COUNTDOWN TIMER</div>
+    <div class="col">
+      <div>
+        <input type="text" readonly value="0">
+        <br>
+        <label for="">Days</label>
+      </div>
+      <div>
+        <input type="text" readonly value="0">
+        <br>
+        <label for="">Hours</label>
+      </div>
+      <div>
+        <input type="text" readonly value="0">
+        <br>
+        <label for="">Minutes</label>
+      </div>
+      <div>
+        <input type="text" readonly value="0">
+        <br>
+        <label for="">Seconds</label>
+    </div>
+  </div>
+</div>
+<!-- <audio src="/music.mp3" autoplay></audio> -->
+
+<audio id="beep-sound" src="beep.wav" autoplay ></audio>
+
+  <script src="countdownTimer.js"></script>
+  
+</body>
+</html>
